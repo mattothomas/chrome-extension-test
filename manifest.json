@@ -1,11 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "My First Extension",
+  "name": "Test Extension",
   "version": "1.0",
-  "description": "A simple Firefox extension example.",
+  "description": "Test Firefox MV3 popup",
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": "icon.png"
-  },
-  "permissions": ["storage", "activeTab", "scripting"]
+    "default_popup": "popup.html"
+  }
 }
