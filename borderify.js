@@ -1,1 +1,0 @@
-alert("My content script is running!");
