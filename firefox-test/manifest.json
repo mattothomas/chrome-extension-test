@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "My Simple Test",
+  "version": "1.0",
+  "description": "Adds a green border to mozilla.org.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["my-script.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
