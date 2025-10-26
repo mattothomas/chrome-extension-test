@@ -1,2 +1,2 @@
-// A nice blue border to show it's working!
+// A blue border this time
 document.body.style.border = "5px solid blue";
